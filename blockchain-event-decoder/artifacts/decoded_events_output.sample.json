@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "totalLogsProcessed": 1,
+    "totalEventsDecoded": 1,
+    "protocolsIdentified": {
+      "token": [
+        "USDC"
+      ]
+    },
+    "eventTypeDistribution": {
+      "Transfer": 1
+    },
+    "processingTimestamp": null
+  },
+  "eventsByProtocol": {
+    "token": [
+      {
+        "transactionHash": "0xabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabcabc0001",
+        "blockNumber": "0x1a2b3c",
+        "logIndex": "0x0",
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "indexed_param_0": "0x1111111111111111111111111111111111111111",
+          "indexed_param_1": "0x2222222222222222222222222222222222222222",
+          "param_0": 1000000
+        }
+      }
+    ]
+  }
+}
