@@ -1,3 +1,4 @@
+# Core blockchain + ABI parsing
 web3==6.20.1
 eth-abi==4.2.1
 pandas==2.2.2
